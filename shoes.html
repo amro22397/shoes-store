@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Shoes Store</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device=width-device, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    
+    <body id="body">
+
+        <header class="header">
+            <nav class="navbar">
+                <div class="logo">
+                    <h2 id="shoes">Shoes</h2>
+                </div>
+
+                <div class="middle-bar">
+                    <ul class="mid-list">
+                        <li> <a href="#Home">Home</a></li>
+                        <li> <a href="#Products">Products</a></li>
+                        <li> <a href="#About">About</a></li>
+                        <li> <a href="#Review">Review</a></li>
+                        <li> <a href="#Services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="right-bar">
+                    <a class="like-logo" id="like-logo" href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a class="shop-cart-icon" id="shop-cart-icon" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a class="profile" href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+            </nav>
+        </header> 
+        
+        
+        <main>
+
+            <span class="cart-items-numbers" id="cart-items-numbers">0</span>
+
+            <div class="cart-container" id="cart-container">
+                <div class="top" style="display: flex; justify-content: flex-end;padding: 2px 11px 0 0;">
+                     <i class="fa-solid fa-x" id="close-cart-icon"></i>
+                </div>
+
+                <div class="items-list" id="items-list">
+
+
+                    <div class="item">
+                        <img src="https://i.ibb.co/zP93Sc3/shoes1.png">
+                        <p>100.99</p>
+    
+                        <div class="quantity">
+                        <span style="cursor: pointer;" id="decrease-item"><i class="fa-solid fa-square-minus"></i></span>
+                        <span class="item-number" style="font-size: 18px;"
+                        id="product-count-span-${id}">1</span>
+                        <span style="cursor: pointer;" id="increase-item"><i class="fa-solid fa-square-plus"></i></span>
+                        </div>
+    
+                        <span class="close-item-btn" id="close-item-btn"><i class="fa-solid fa-circle-xmark"
+                            style="color: rgb(120, 2, 2);"></i></span>
+                    </div>
+
+                </div>
+
+                <div class="cart-container-footer" 
+                style="display: flex; flex-direction: column; border-top: solid rgb(0, 0, 0) 0px ;
+                padding-top: 12px;">
+                    <div class="total-price-div" style="display: flex; justify-content: space-between;">
+                        <h4 style="text-align: left;
+                    padding-bottom: 10px;
+                    font-family: Candara;
+                    letter-spacing: 1px;">Total Price: </h4><span id="total-price" 
+                    style="margin: -1px 5px 0px 0; font-size: 22px;
+                    font-weight: bold;">0</span>
+                    </div>
+                    <div class="footer-buttons" style="display: flex; flex-direction: row;">
+                    <button class="check-items" id="check-items" style="
+                     width: 90px;";>Check Out</button>
+                     <button class="clear-items" id="clear-items" style="
+                     width: 90px;">Clear Cart</button>
+                    </div>
+                     
+                </div>
+                
+                 
+            </div>
+
+            
+        <section class="introduction" id="Home">
+
+            
+            <div class="row">
+
+                
+
+                <div class="right-intro ">
+                    <h1 style="font-family: Monaco, Consolas; font-size: 60px; font-weight: bolder; letter-spacing: 10px; color:none;
+                    background: -webkit-linear-gradient(#ff00ff, #bb00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;">Nike</h1>
+                    <h1 style="font-size: 55px; padding-bottom: 10px;
+                    background: -webkit-linear-gradient(#ff00ff, #bb00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;">Collection</h1>
+                    <p style="width: 550px" class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <button class="shop-now">SHOP NOW ></button>
+                </div>
+
+                <div class="shoes-photo">
+                    <img class="shoes-img" src="https://i.ibb.co/p4ZRMJH/shoes.png">
+                </div>
+
+                <div class="right-intro-bar">
+                    <ul>
+                        <li> <a href=""> <i class="fa-brands fa-facebook"></i> </a> </li>
+                        <li> <a href=""> <i class="fa-brands fa-twitter"></i> </a> </li>
+                        <li> <a href=""> <i class="fa-brands fa-instagram"></i> </a> </li>
+                        <li> <a href=""> <i class="fa-brands fa-linkedin-in"></i> </a> </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="products-section" id="Products">
+
+            <h1 style="text-align: center; letter-spacing: 2px; font-weight:700; font-size: 60px; color: #9a01b9;">PRODUCTS</h1>
+
+            
+
+
+            
+            <div class="row products-div">
+
+                
+                
+            </div>
+
+        </section>
+
+        <section class="about" id="About" style="padding: 60px 50px;">
+
+            <h1 style="text-align: center; letter-spacing: 2px; font-weight:700; font-size: 60px; color: #000000;
+            ">Web <span style="text-align: center; letter-spacing: 2px; font-weight:700; font-size: 60px; color: #9c00a7;">About</span></h1>
+
+            <div class="about_main">
+                <div class="about_image">
+                    <div class="about_small_image">
+                        <img src="https://i.ibb.co/sH9NrSb/red-shoes1.png" onclick="functio(this)">
+                        <img src="https://i.ibb.co/jVwZM1Y/red-shoes2.png" onclick="functio(this)">
+                        <img src="https://i.ibb.co/rKBr07r/red-shoes3.png" onclick="functio(this)">
+                        <img src="https://i.ibb.co/BsBQk5v/red-shoes4.png" onclick="functio(this)">
+                    </div>
+    
+                    <div class="image_contaner">
+                        <img src="https://i.ibb.co/sH9NrSb/red-shoes1.png" id="imagebox">
+                    </div>
+    
+                </div>
+
+                <div class="about-btn-div" style="text-align: center; padding: 70px">
+                    <a href="#" class="about_btn" style="
+                background-color: rgb(255, 162, 0);
+                border: none;
+                padding: 5px 15px;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border-radius: 10px;
+                font-weight: bolder;
+                font-size: 20px;
+                -webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 20px #706d71bd;
+        transform: translate(-50% , -50%);
+        transition: 0.5s;
+                ">Shop Now</a>
+                </div>
+
+                
+                
+        </section>
+        
+<section class="customer-review" id="Review">
+
+    <h2 style="text-align: center;
+            font-weight: bold;
+            font-size: 60px ;
+            ;
+            ">CUSTOMER<span style="background: -webkit-linear-gradient(#ff00ff, #7a0292);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent"> REVIEW</span></h2>
+  
+  <div class="messages">
+
+    <div class="each-message" style="margin: 10px 25px;">
+        <div class="name-photo">
+            <img src="https://i.ibb.co/jyMrZJr/man-dp1.jpg" style="width:70px; border-radius: 50px;
+            -webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 10px #424143bd;
+        ">
+            <div class="name-rating" style="padding: 10px 20px">
+                <h4>Ranidi Lochana</h4>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, amet nesciunt voluptatem cum architecto ipsum vero nulla voluptatibus dolorum modi assumenda eum? Aliquid inventore velit ipsa repellat numquam atque dolores!</p>
+    </div>
+
+    <div class="each-message" style="margin: 10px 25px;">
+        <div class="name-photo">
+            <img src="https://i.ibb.co/mG9z1Zj/man-dp3.jpg" style="width:70px;height: 65px; border-radius: 50px; webkit-box-shadow: 0 0 10px #fff; box-shadow: 0 0 10px #424143bd;">
+            <div class="name-rating" style="padding: 10px 20px">
+                <h4>Senuda Dilwan</h4>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, amet nesciunt voluptatem cum architecto ipsum vero nulla voluptatibus dolorum modi assumenda eum? Aliquid inventore velit ipsa repellat numquam atque dolores!</p>
+    </div>
+
+    <div class="each-message" style="margin: 10px 25px;">
+        <div class="name-photo">
+            <img src="https://i.ibb.co/C076pZ2/man-dp2.jpg" style="width: 65px; height:70px; border-radius: 50px; webkit-box-shadow: 0 0 10px #fff; box-shadow: 0 0 10px #424143bd;">
+            <div class="name-rating" style="padding: 10px 20px">
+                <h4>Sayuru Tharanga
+                </h4>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, amet nesciunt voluptatem cum architecto ipsum vero nulla voluptatibus dolorum modi assumenda eum? Aliquid inventore velit ipsa repellat numquam atque dolores!</p>
+    </div>
+    
+  </div>
+
+</section>
+
+<section class="our-services" id="Services" style="padding: 50px 40px">
+
+    <h2 style="text-align: center;
+            font-weight: bold;
+            font-size: 60px ;
+            ;
+            ">OUR<span style="background: -webkit-linear-gradient(#ff00ff, #7a0292);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent"> Services</span></h2>
+
+  <div class="row our-services-row">
+
+    <div class="col-xs-4 our-services-col">
+        <i class="fa-solid fa-truck" style="color:rgb(255, 119, 0); font-size: 80px; padding-bottom: 20px;"></i>
+          <h4>Fast Delivery</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+
+    <div class="col-xs-4 our-services-col">
+        <i class="fa-solid fa-rotate-right" style="color:rgb(255, 119, 0); font-size: 80px; padding-bottom: 20px;"></i>
+          <h4>10 Days Replacement</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+
+    <div class="col-xs-4 our-services-col">
+        <i class="fa-solid fa-headphones" style="color:rgb(255, 119, 0); font-size: 80px; padding-bottom: 20px;"></i>
+          <h4>24 x 7 Support</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="registration" style="padding-bottom: 40px ;">
+
+    <div class="row registration-div">
+
+        <div class="foot-image">
+            <img src="https://i.ibb.co/6Hwwzj3/logshoes.png" style="width: 800px; padding: 0 200px 0 0px">
+        </div>
+
+        <div class="registration-form">
+            <h2 style="padding-bottom: 50px; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold;">Welcome Back!</h2>
+            <label for="user-name">User Name <br><input type="name" id="user-name" placeholder="User Name" style="width:300px; margin-top: 4px;
+            border: solid rgb(200, 0, 255) 2px; padding: 3px 5px; border-radius: 5px;"></label>
+
+            <label for="user-name">Password <br><input type="password" id="user-name" placeholder="Password" style="width:300px; margin-top: 4px;
+                border: solid rgb(200, 0, 255) 2px; padding: 3px 5px; border-radius: 5px;"></label>
+                <a href="" style="display: flex; justify-content: flex-end; text-decoration: none; color: black;">Forget Password ?</a>
+                <button class="login-btn">Login</button>
+
+
+        </div>
+
+    </div>
+
+</section>
+        </main> 
+ 
+        <footer class="footer">
+            <div class="row" style="display: flex; flex-direction: row; justify-content: center; padding-top: 20px;">
+
+                <div class="contact" style="padding: 0px 55px 0 0px;">
+                    <h2 style="padding: 15px 0px 10px 0; color: rgb(36, 36, 198); text-align: left;">Contact</h2> 
+
+                   <a href="" style="display: flex; flex-direction: row;
+                   text-decoration: none; color:rgb(7, 2, 93);
+                   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                   font-weight: bold;"> 
+                   <i class="fa-solid fa-house" style="padding-right: 6px;" ></i> 123/Colombo/Sri Lanka</a>
+
+                   <a href="" style="display: flex; flex-direction: row;
+                   text-decoration: none; color:rgb(7, 2, 93);
+                   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                   font-weight: bold;"> 
+                   <i class="fa-solid fa-phone" style="padding-right: 6px;" ></i> +94 12 345 6789</a>
+
+
+<a href="" style="display: flex; flex-direction: row;
+text-decoration: none; color:rgb(7, 2, 93)"> 
+<i class="fa-solid fa-message" style="padding-right: 6px;" ></i> <p style="
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;">contact@gmail.com</p></a>
+
+                   
+                </div>
+
+                <div class="get-help" style="padding: 15px 55px 0 0px; text-align: center;">
+
+                    <h2 style="color: rgb(36, 36, 198); padding-left: 40px;">Get Help</h2>
+
+                    <ul style="list-style: none;">
+                    <li> <a href="" style="text-decoration: none; color:black">FAQ</a> </li>
+                    <li> <a href="" style="text-decoration: none; color:black">Shipping</a> </li>
+                    <li> <a href="" style="text-decoration: none; color:black">Returns</a> </li>
+                    <li> <a href="" style="text-decoration: none; color:black">Payment Options</a> </li>
+                    </ul>
+                </div>
+
+                <div class="our-stores" style="padding: 15px 55px 0 0px; text-align: center;">
+
+                    <h2 style="color: rgb(36, 36, 198); padding-left: 40px;">Our Stores</h2>
+
+                    <ul style="list-style: none;">
+                    <li> <a href="" style="text-decoration: none; color:black">Sri Lanka</a> </li>
+                    <li> <a href="" style="text-decoration: none; color:black">USA</a> </li>
+                    <li> <a href="" style="text-decoration: none; color:black">India</a> </li>
+                    <li> <a href="" style="text-decoration: none; color:black">Japan</a> </li>
+                    </ul>
+                </div>
+
+                <div class="our-stores" style="padding: 15px 55px 0 80px; text-align: left;">
+
+                    <h2 style="color: rgb(36, 36, 198);">Newsletter</h2>
+                    
+                    <input type="email" id="email" placeholder="Your email id here" style="width: 100%;
+                    border-radius: 10px;
+                    border: none;
+                    margin-bottom: 10px;
+                    background-color: rgb(217, 206, 206);
+                    padding:2px 10px;">
+                    <button class="email-btn" style="
+                    border: none;
+                    padding: 2px 10px;
+                    background-image: linear-gradient(to right,rgb(255, 0, 208) , rgb(162, 54, 164));
+                    color: white;
+                    border-radius: 10px;">Subscribe</button>
+
+                </div>
+        </footer>
+        
+        <script>
+            
+        </script>
+    
+        <script src="script.js"></script>
+
+        <script>
+            function functio(small) {
+                var full = document.getElementById("imagebox");
+                full.src = small.src;
+            }
+
+            
+        </script>
+      </body>
+</html>
+
